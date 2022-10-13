@@ -1,4 +1,52 @@
-.card{
-
-border: 5px solid red;
+.container{
+   background: #e5e5e5;
+   display: flex;
+   flex-wrap: wrap;
+   padding: 5rem 0 0 5rem;
+   border: 3px solid red;
 }
+
+.card{
+    display: flex;
+    background: #fdfdfd;
+    flex-direction: column;
+    margin-bottom: 5rem;
+    margin-right: 5rem;
+    width: calc(25% - 5rem);
+}
+
+.card img{
+    height: 200px;
+}
+
+.card__receita--conteudo{
+
+    padding: 1rem;
+}
+
+.card__receita--titulo{
+    font-size: 1.4375rem;
+}
+
+.card__receita--descricao{
+    font-size: 1.1875rem;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.card__receita--botao{
+    background: #8d0606;
+    border: none;
+    border-radius: 5px;
+    color:#fdfdfd;
+    padding: 1rem;
+}
+
+.card__receita--botao:hover{
+    cursor:pointer;
+    background: #620404;
+    transition: all .1s ease-in-out;
+}
+
+
+
