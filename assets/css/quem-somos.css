@@ -1,0 +1,54 @@
+.quem-somos{
+    text-align: center;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+    justify-content: space-around;
+}
+
+.pessoas{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3rem;
+}
+
+.quem__somos__titulo{
+
+    font-family: Pacifico, cursive;
+    color: #8b0606;
+    font-size: 3.1875rem;
+    text-align: center;
+    margin-bottom: 1rem;
+
+}
+
+.quem__somos__paragrafo{
+    text-align: center;
+    font-weight: 100;
+    font-size: 1.75rem;
+    color: #595959;
+}
+
+.quem__somos__imagem{
+    border-radius: 50%;
+    height: 300px;
+    margin: 0 auto;
+    width: 300px;
+}
+
+.pessoa__titulo{
+
+    font-family: Pacifico, cursive;
+    color: #8b0606;
+    font-size: 2rem;
+}
+
+.pessoa__paragrafo{
+    text-transform: lowercase;
+    color: #595959;
+    font-size: 1.25rem;
+
+
+}
+
