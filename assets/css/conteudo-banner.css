@@ -4,16 +4,47 @@ position: relative;
 
 .banner__imagem{
     width: 100%;
-    height: calc(100vh -72px) ; /*100% da janela do navegador*/
 }
 
 .banner__titulo{
     font-family: Pacifico, cursive;
     color: #ffff;
-    font-size: 5.0625rem;
     position: absolute;
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
     text-align: center;
     width: 100%;
     top: 40%;
 }
+
+
+@media screen and (min-width:0) {
+    .banner__titulo{
+        font-size: 3rem;
+    }
+}
+
+@media screen and (min-width:768px){
+    .banner__titulo{
+        font-size:5.0625rem ;
+    }
+} 
+
+@media screen and (min-width:0){
+
+    .banner__imagem{
+        height: calc(100vh - 51px);
+    }
+
+}
+
+@media screen and (min-width:768px){
+
+    .banner__imagem{
+        height: calc(100vh -72px) ; /*100% da janela do navegador*/
+    }
+}
+
+
+
+
+
