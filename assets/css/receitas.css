@@ -2,14 +2,34 @@
     font-family: Pacifico,cursive;
     color: #8b0606;
     text-align: center;
-    font-size: 3.1875rem;
-    padding: 2.5rem;
 }
 
 .receitas__paragrafo{
     font-family: Roboto , sans-serif;
     text-align: center;
-    font-size: 1.75rem;
     color: #595959;
     font-weight: 100;
+}
+
+@media screen and (min-width:0) {
+    .titulo__receitas{
+        font-size: 1.6050rem;
+        padding: 2px;
+    }
+
+    .receitas__paragrafo{
+        font-size:0.938rem ;
+    }
+}
+
+@media screen and (min-width:768px) {
+
+    .titulo__receitas{
+        font-size: 3.1875rem;
+        padding: 2.5rem;
+    }
+
+    .receitas__paragrafo{
+        font-size: 1.75rem;
+    }
 }

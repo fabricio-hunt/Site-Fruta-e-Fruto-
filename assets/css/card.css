@@ -2,7 +2,6 @@
    background: #e5e5e5;
    display: flex;
    flex-wrap: wrap;
-   padding: 5rem 0 0 5rem;
 }
 
 .card{
@@ -10,9 +9,6 @@
     background: #fdfdfd;
     flex-direction: column;
     margin-bottom: 5rem;
-    margin-right: 5rem;
-    width: 25%;
-    margin-left: 1.790rem
 }
 
 .card img{
@@ -46,6 +42,53 @@
     background: #620404;
     transition: all .1s ease-in-out;
 }
+
+
+/* smartphones*/
+@media screen and (min-width:0) {
+
+    .card{
+        margin-right: 1rem;
+        width: 100%;
+    }
+    .container{
+        padding: 5rem 0 0 1rem;
+    }
+    
+}
+
+/* ipad e tablets*/
+@media screen and (min-width:768px) {
+
+    .card{
+        margin-right:2.5rem ;
+        width: calc(33.33% - 2.5rem);
+        margin: 0 auto;
+        margin: 10px;
+
+
+    }
+    .container{
+        padding-top: 15px;
+        
+    }
+    
+}
+/* desk tops*/
+
+@media screen and (min-width:992px) {
+
+    .card{
+        margin-right: 5rem;
+        width: 25%;
+        margin-left: 1.790rem;
+    }
+    .container{
+        padding: 5rem 0 0 5rem;
+    }
+    
+}
+
 
 
 
